@@ -31,7 +31,7 @@
 		//echo "<script type='text/javascript'>";
 	    //echo "alert('Successfully logged in!!!');";
 	    echo "</script>";
-		if($row['userType']==='Student')
+		if($row['userType']==='User')
 			header( "refresh:1; url=selection.php" );
 			//include('selection.php');
 		else
